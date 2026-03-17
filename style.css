@@ -54,12 +54,15 @@ margin-bottom: 20px;
   margin-top: 15px;
 }
 
-.label a {
+.label a,
+.label a:visited,
+.label a:active {
   color: white;
   text-decoration: none;
 }
 
 .label a:hover {
+  color: white;
   text-decoration: underline;
 }
 
