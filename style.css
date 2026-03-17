@@ -72,11 +72,12 @@ box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 .icon {
 width: 20px;
 height: 20px;
+filter: brightness(1.2);
 }
 
 /* Colors */
 .btn.stremio {
-background: linear-gradient(135deg, #6c5ce7, #4834d4);
+background: linear-gradient(135deg, #0f172a, #1e293b);
 }
 
 .btn.nuvio {
