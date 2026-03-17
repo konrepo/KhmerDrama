@@ -1,24 +1,48 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KhmerDub Addon</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <div class="overlay">
     <div class="content">
-      <img src="bg/logo.png" class="logo" alt="KhmerDub Logo" />
 
-      <h1>ខ្មែរ</h1>      
-      <h2>KhmerDub</h2>
-      <p class="subtitle">
-        Stream Asian dramas dubbed in Khmer | Dev: TheDevilz
-      </p>
+```
+  <img src="bg/logo.png" class="logo" alt="KhmerDub Logo" />
 
-      <a class="btn" href="stremio://khmerdub.onrender.com/manifest.json">
-        INSTALL
-      </a>
-    </div>
+  <h1>ខ្មែរ</h1>      
+  <h2>KhmerDub</h2>
+
+  <p class="subtitle">
+    Stream Asian dramas dubbed in Khmer | Dev: TheDevilz
+  </p>
+
+  <!-- Stremio -->
+  <p class="label">For Stremio App</p>
+  <a class="btn stremio"
+     href="stremio://khmerdub.onrender.com/manifest.json"
+     onclick="setTimeout(() => window.location.href='https://khmerdub.onrender.com/manifest.json', 1500)">
+    <img src="bg/stremio.png" class="icon" alt="Stremio">
+    Install on Stremio
+  </a>
+
+  <!-- Nuvio -->
+  <p class="label">For Nuvio App</p>
+  <a class="btn nuvio"
+     href="https://khmernuv.onrender.com/manifest.json"
+     target="_blank">
+    <img src="bg/nuvio.png" class="icon" alt="Nuvio">
+    Install on Nuvio
+  </a>
+
+</div>
+```
+
   </div>
 </body>
 </html>
