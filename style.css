@@ -45,7 +45,7 @@ h1 {
 
 h2 {
   font-size: 56px;
-  margin: 0 0 10px;
+  margin: 0 0 5px;
 }
 
 /* Subtitle */
@@ -75,10 +75,10 @@ h2 {
   text-decoration: underline;
 }
 
-/* Support (under logo only) */
-.logo + .label {
-  margin-top: 5px;
-  margin-bottom: 20px;
+/* Support Me */
+h2 + .label {
+  margin-top: 0;
+  margin-bottom: 12px;
 }
 
 .label a[href*="ko-fi"] {
