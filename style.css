@@ -109,25 +109,6 @@ h2 {
   background: linear-gradient(135deg, #0f172a, #1e3a8a);
 }
 
-.support-link {
-  display: inline-block;
-  margin: 10px auto 20px;
-
-  padding: 6px 14px;
-  font-size: 14px;
-
-  color: white;
-  text-decoration: none;
-
-  background: rgba(255, 120, 80, 0.2);
-  border-radius: 8px;
-
-  backdrop-filter: blur(6px);
-  -webkit-backdrop-filter: blur(6px);
-
-  transition: 0.2s ease;
-}
-
 .btn.donate:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 24px rgba(0,0,0,0.45);
