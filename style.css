@@ -24,35 +24,35 @@ body {
 }
 
 .content {
-padding: 20px;
+  padding: 20px;
 }
 
 /* Logo */
 .logo {
-width: 140px;
-height: 140px;
-border-radius: 12%;
-object-fit: cover;
-margin-bottom: 20px;
-box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+  width: 140px;
+  height: 140px;
+  border-radius: 12%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
 
 /* Titles */
 h1 {
-font-size: 56px;
-margin: 0 0 10px;
+  font-size: 56px;
+  margin: 0 0 10px;
 }
 
 h2 {
-font-size: 56px;
-margin: 0 0 10px;
+  font-size: 56px;
+  margin: 0 0 10px;
 }
 
 /* Subtitle */
 .subtitle {
-font-size: 20px;
-opacity: 0.9;
-margin-bottom: 20px;
+  font-size: 20px;
+  opacity: 0.9;
+  margin-bottom: 20px;
 }
 
 /* Labels */
@@ -77,34 +77,47 @@ margin-bottom: 20px;
 
 /* Buttons */
 .btn {
-display: inline-flex;
-align-items: center;
-gap: 10px;
-padding: 14px 30px;
-margin-top: 10px;
-text-decoration: none;
-color: white;
-border-radius: 10px;
-font-size: 16px;
-box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 30px;
+  margin-top: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  font-size: 16px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
 }
 
 /* Icons */
 .icon {
-width: 20px;
-height: 20px;
-filter: brightness(1.2);
+  width: 20px;
+  height: 20px;
+  filter: brightness(1.2);
 }
 
 /* Colors */
 .btn.stremio {
-background: linear-gradient(135deg, #38bdf8, #0ea5e9);
+  background: linear-gradient(135deg, #38bdf8, #0ea5e9);
 }
 
 .btn.nuvio {
-background: linear-gradient(135deg, #00b894, #019875);
+  background: linear-gradient(135deg, #00b894, #019875);
 }
 
 .btn.kodi {
-background: linear-gradient(135deg, #0f172a, #1e3a8a);
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
+.btn.donate {
+  background: linear-gradient(135deg, #ff5f5f, #ff9966);
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn.donate:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.45);
 }
