@@ -115,7 +115,7 @@ h2 {
   align-items: center;
   width: fit-content;
   margin: 10px auto 25px auto;
-  background: linear-gradient(135deg, #ff5f5f, #ff9966);
+  background: linear-gradient(135deg, #00b894, #019875);
   font-weight: 600;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
