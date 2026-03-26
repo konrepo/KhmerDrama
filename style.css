@@ -33,7 +33,7 @@ body {
   height: 140px;
   border-radius: 12%;
   object-fit: cover;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.6);
 }
 
@@ -75,6 +75,21 @@ h2 {
   text-decoration: underline;
 }
 
+/* Support (under logo only) */
+.logo + .label {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.label a[href*="ko-fi"] {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.label a[href*="ko-fi"]:hover {
+  color: #ff9966;
+}
+
 /* Buttons */
 .btn {
   display: inline-flex;
@@ -107,9 +122,4 @@ h2 {
 
 .btn.kodi {
   background: linear-gradient(135deg, #0f172a, #1e3a8a);
-}
-
-.btn.donate:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 24px rgba(0,0,0,0.45);
 }
