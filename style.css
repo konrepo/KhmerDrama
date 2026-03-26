@@ -113,7 +113,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: fit-content;
+  width: 140px;
   margin: 10px auto 25px auto;
   background: linear-gradient(135deg, #00b894, #019875);
   font-weight: 600;
