@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>DNS Installer</title>
+
+  <script>
+    setTimeout(function() {
+      window.location.href = "/dns.mobileconfig";
+    }, 1000);
+  </script>
+
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+      max-width: 700px;
+      margin: 40px auto;
+      padding: 0 16px;
+      text-align: center;
+      line-height: 1.6;
+      color: #111;
+    }
+
+    h1 {
+      margin-bottom: 10px;
+    }
+
+    .button {
+      display: inline-block;
+      padding: 14px 22px;
+      border-radius: 12px;
+      text-decoration: none;
+      background: #007aff;
+      color: white;
+      font-weight: 600;
+      margin: 10px;
+    }
+
+    .secondary {
+      background: #555;
+    }
+
+    .note {
+      margin-top: 15px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .section {
+      margin-top: 30px;
+    }
+
+    .footer {
+      margin-top: 50px;
+      font-size: 13px;
+      color: #777;
+    }
+
+    .footer a {
+      color: #007aff;
+      text-decoration: none;
+      margin: 0 5px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📡 DNS Installer</h1>
+
+  <p>Preparing DNS profile download…</p>
+
+  <a class="button" href="/dns.mobileconfig">
+    Auto-Install DNS Profile
+  </a>
+
+  <p class="note">
+    If it doesn't start automatically, tap "Install DNS Profile".
+  </p>
+
+  <p class="note">
+    After download, go to:<br>
+    <b>Settings → Profile Downloaded → Install</b>
+  </p>
+
+  <div class="section">
+    <a class="button secondary" href="/cert.zip" download>
+      📦 Download Certificate (.zip)
+    </a>
+  </div>
+
+  <div class="section">
+    <a class="button" href="itms-services://?action=download-manifest&url=https://dnsinstaller.onrender.com/manifest.plist">
+      📲 Install Feather App
+    </a>
+  </div>
+
+  <div class="footer">
+    Credits:
+    <a href="https://khoindvn.io.vn/" target="_blank">Khoindvn</a> |
+    <a href="https://github.com/CLARATION/Feather" target="_blank">Feather</a>
+  </div>
+
+</body>
+</html>
