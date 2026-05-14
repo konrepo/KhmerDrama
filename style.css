@@ -124,3 +124,12 @@ h2 + .label {
 .btn.kodi {
   background: linear-gradient(135deg, #0f172a, #1e3a8a);
 }
+
+/* Notes */
+.note {
+  font-size: 14px;
+  opacity: 0.8;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
