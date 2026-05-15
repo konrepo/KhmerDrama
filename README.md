@@ -18,3 +18,8 @@
 <p align="center">
   🙏 Thank you for your support!
 </p>
+
+Credit:
+[DNS Khoindv](https://khoindvn.io.vn/)
+[Feather](https://github.com/CLARATION/Feather)
+[Certification](https://t.me/AppleP12)
