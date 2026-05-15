@@ -19,9 +19,8 @@
   🙏 Thank you for your support!
 </p>
 
-<p align="center">
 Credit:
-[DNS Khoindv](https://khoindvn.io.vn/)
-[Feather](https://github.com/CLARATION/Feather)
+[DNS Khoindv](https://khoindvn.io.vn/) |
+[Feather](https://github.com/CLARATION/Feather) |
 [Certification](https://t.me/AppleP12)
-</p>
+
