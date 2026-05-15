@@ -1,7 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>DNSSettings</key>
+			<dict>
+				<key>DNSProtocol</key>
+				<string>HTTPS</string>
+				<key>ServerAddresses</key>
+				<array>
+					<string>1.1.1.1</string>
+					<string>1.0.0.1</string>
+				</array>
+				<key>ServerURL</key>
+				<string>https://khoindvn.io.vn</string>
+				<key>SupplementalMatchDomains</key>
+				<array>
+					<string>certs.apple.com</string>
+					<string>crl.apple.com</string>
+					<string>crl3.digicert.com</string>
+					<string>crl4.digicert.com</string>
+					<string>ocsp.apple.com</string>
+					<string>ocsp.digicert.cn</string>
+					<string>ocsp.digicert.com</string>
+					<string>ocsp2.apple.com</string>
+					<string>valid.apple.com</string>
+					<string>vuvankhoi.com</string>
+					<string>analytics.apple.com</string>
+					<string>khoindvn.com</string>
+				</array>
+			</dict>
+			<key>OnDemandRules</key>
+			<array>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>WiFi</string>
+				</dict>
+				<dict>
+					<key>Action</key>
+					<string>Connect</string>
+					<key>InterfaceTypeMatch</key>
+					<string>Cellular</string>
+				</dict>
+			</array>
+			<key>PayloadDescription</key>
+			<string>Configures device to use khơindvn Encrypted DNS over HTTPS</string>
+			<key>PayloadDisplayName</key>
+			<string>Anti Revoke</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.dnsSettings.managed.0cd6791a-eb8f-4c81-b80c-f718e5f04c51</string>
+			<key>PayloadOrganization</key>
+			<string>khơindvn</string>
+			<key>PayloadType</key>
+			<string>com.apple.dnsSettings.managed</string>
+			<key>PayloadUUID</key>
+			<string>590396fe-a5b1-4778-a579-5b5ef931fdc7</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
 		<dict>
 			<key>AllowEnterpriseAppInstallation</key>
 			<true/>
