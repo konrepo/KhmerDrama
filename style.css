@@ -125,6 +125,10 @@ h2 + .label {
   background: linear-gradient(135deg, #0f172a, #1e3a8a);
 }
 
+.btn.dns {
+  background: linear-gradient(135deg, #0f172a, #1e3a8a);
+}
+
 /* Notes */
 .note {
   font-size: 14px;
