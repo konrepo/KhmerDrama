@@ -19,8 +19,8 @@
   🙏 Thank you for your support!
 </p>
 
-Credit:
-[DNS Khoindv](https://github.com/dns-khoindvn/top-country-stats/releases/tag/DNS) |
+Credit: 
+[DNS Khoindv](https://github.com/dns-khoindvn/top-country-stats/releases/tag/DNS) 2026-02-21 |
 [Feather](https://github.com/CLARATION/Feather) |
 [Certification](https://t.me/AppleP12)
 
