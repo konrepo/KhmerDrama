@@ -20,7 +20,7 @@
 </p>
 
 Credit:
-[DNS Khoindv](https://github.com/dns-khoindvn/top-country-stats/releases/tag/DNS)) |
+[DNS Khoindv](https://github.com/dns-khoindvn/top-country-stats/releases/tag/DNS) |
 [Feather](https://github.com/CLARATION/Feather) |
 [Certification](https://t.me/AppleP12)
 
