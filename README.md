@@ -19,7 +19,7 @@
   🙏 Thank you for your support!
 </p>
 
-Credit: 
+Credit:<br> 
 DNS as of 2026-02-21<br>
 [DNS Khoindv](https://github.com/dns-khoindvn/top-country-stats/releases/tag/DNS) |
 [Feather](https://github.com/CLARATION/Feather) |
