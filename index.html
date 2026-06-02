@@ -1,108 +1,136 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>KhmerDub Addon</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    .app-section {
+      margin-bottom: 1.5rem;
+    }
+    .ios-section {
+      margin-top: 2rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    .steps-list {
+      padding-left: 1.5rem;
+      margin: 0;
+    }
+    .steps-list li {
+      margin-bottom: 1rem;
+    }
+  </style>
 </head>
 
 <body>
   <div class="overlay">
     <div class="content">
 
-  <img src="bg/logo.png" class="logo" alt="KhmerDub Logo" />
+      <img src="bg/logo.png" class="logo" alt="KhmerDub Logo" />
 
-  <h1>ខ្មែរ</h1>      
-  <h2>KhmerDub</h2>
-<p class="label">
-  ☕ <a href="https://ko-fi.com/thedevilz" target="_blank" rel="noopener noreferrer">Support Me</a>
-</p>
-      
-  <p class="subtitle">
-    Stream Asian dramas dubbed in Khmer | By: TheDevilz
-  </p>
+      <h1>ខ្មែរ <span>KhmerDub</span></h1>
 
-  <!-- Stremio -->
-  <p class="label">
-     <a href="https://www.stremio.com/" target="_blank">👉 For Stremio App</a>
-  </p>
-  <a class="btn stremio"
-     href="stremio://khmerhub.onrender.com/khmerdub/manifest.json"
-     onclick="setTimeout(() => window.location.href='https://khmerhub.onrender.com/khmerdub/manifest.json', 1500)">
-    <img src="bg/stremio.png" class="icon" alt="Stremio">
-    Install on Stremio
-  </a>
+      <p class="label">
+        ☕ <a href="https://ko-fi.com/thedevilz" target="_blank" rel="noopener noreferrer">Support Me</a>
+      </p>
 
-  <!-- Nuvio -->
-  <p class="label">
-     <a href="https://nuvioapp.space/" target="_blank">👉 For Nuvio App</a>
-  </p>
-  <a class="btn nuvio"
-     href="https://khmerhub.onrender.com/khmernuv/manifest.json"
-     target="_blank">
-    <img src="bg/nuvio.png" class="icon" alt="Nuvio">
-    Install on Nuvio
-  </a>
+      <p class="subtitle">
+        Stream Asian dramas dubbed in Khmer | By: TheDevilz
+      </p>
 
-  <!-- Kodi -->
-  <p class="label">
-     <a href="https://kodi.tv/download/" target="_blank">👉 For Kodi App</a>
-  </p>
-  <a class="btn kodi"
-     href="https://konrepo.github.io/KhmerKodi"
-     target="_blank">
-    <img src="bg/kodi.png" class="icon" alt="Kodi">
-    Install on Kodi
-  </a>      
+      <!-- Stremio -->
+      <section class="app-section">
+        <p class="label">
+          <a href="https://www.stremio.com/" target="_blank" rel="noopener noreferrer">👉 For Stremio App</a>
+        </p>
+        <a class="btn stremio"
+           href="stremio://khmerhub.onrender.com/khmerdub/manifest.json"
+           onclick="setTimeout(() => window.location.href='https://khmerhub.onrender.com/khmerdub/manifest.json', 1500)">
+          <img src="bg/stremio.png" class="icon" alt="Stremio">
+          Install on Stremio
+        </a>
+      </section>
 
-<!-- DNS Installer -->
-<p class="label">
-  👉 DNS, Certificate, and Feather: iOS
-</p>
-      
-<a class="btn dns"
-     href="https://github.com/dns-khoindvn/top-country-stats/releases/download/DNS/khoindvn.io.vn.mobileconfig"
-     target="_blank">
-    <img src="bg/dns.png" class="icon" alt="DNS">  
-    Install DNS Profile
-</a>
-      
-<br>
-<p class="note">
-  1) After download, go to:<br>
-  Settings → Profile Downloaded → Install  
-</p>
-      
-<a class="btn" href="/public/cert.zip" download>
-  2) Download Certificate
-</a>
+      <!-- Nuvio -->
+      <section class="app-section">
+        <p class="label">
+          <a href="https://nuvioapp.space/" target="_blank" rel="noopener noreferrer">👉 For Nuvio App</a>
+        </p>
+        <a class="btn nuvio"
+           href="https://khmerhub.onrender.com/khmernuv/manifest.json"
+           target="_blank" rel="noopener noreferrer">
+          <img src="bg/nuvio.png" class="icon" alt="Nuvio">
+          Install on Nuvio
+        </a>
+      </section>
 
-<a class="btn"
-   href="itms-services://?action=download-manifest&url=https://khmerdrama.onrender.com/public/manifest.plist">
-  3) Install Feather App
-</a>
+      <!-- Kodi -->
+      <section class="app-section">
+        <p class="label">
+          <a href="https://kodi.tv/download/" target="_blank" rel="noopener noreferrer">👉 For Kodi App</a>
+        </p>
+        <a class="btn kodi"
+           href="https://konrepo.github.io/KhmerKodi"
+           target="_blank" rel="noopener noreferrer">
+          <img src="bg/kodi.png" class="icon" alt="Kodi">
+          Install on Kodi
+        </a>
+      </section>
 
-<a class="btn"
-   href="https://release-assets.githubusercontent.com/github-production-release-asset/1228813945/c881a8bf-99be-427f-a4a5-8425876e3745?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-15T17%3A44%3A27Z&rscd=attachment%3B+filename%3DYouProMod-73.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-15T16%3A43%3A38Z&ske=2026-05-15T17%3A44%3A27Z&sks=b&skv=2018-11-09&sig=IT%2BDpNSCEnrZ%2BiDfdGR%2Bph8SqN7SLXZB7H2RT0wx0aA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3ODg2ODMwNywibmJmIjoxNzc4ODY0NzA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.FBLYjnRH9Q5se_qgXihsLw8sOfMAL4DO5Bn5nmv7ODU&response-content-disposition=attachment%3B%20filename%3DYouProMod-73.ipa&response-content-type=application%2Foctet-stream
-">
-  4) Download YouProMod App
-</a>      
+      <!-- iOS Section -->
+      <section class="app-section ios-section">
+        <p class="label">👉 DNS, Certificate, and Feather: iOS</p>
 
-<p class="note">
-  After install Feather, go to:<br>
-  Settings → General → VPN & Device Mgnt → Enterprise App → Trust → Reboot
-</p>      
+        <ol class="steps-list">
 
-<p class="note">
-  After download, go to:<br>
-  Feather → Settings → Certificate → + Sign → Import Cert File and Import Provisioning File → Password (password inside zip)<br><BR>
-  Feather → Library → + sign → Import from Files → Download → YouProMod
-</p>   
-      
-</div>
+          <li>
+            <a class="btn dns"
+               href="https://github.com/dns-khoindvn/top-country-stats/releases/download/DNS/khoindvn.io.vn.mobileconfig"
+               target="_blank" rel="noopener noreferrer">
+              <img src="bg/dns.png" class="icon" alt="DNS">
+              Install DNS Profile
+            </a>
+            <p class="note">
+              After download, go to:<br>
+              Settings → Profile Downloaded → Install
+            </p>
+          </li>
 
+          <li>
+            <a class="btn" href="/public/cert.zip" download>
+              Download Certificate
+            </a>
+          </li>
+
+          <li>
+            <a class="btn"
+               href="itms-services://?action=download-manifest&url=https://khmerdrama.onrender.com/public/manifest.plist">
+              Install Feather App
+            </a>
+            <p class="note">
+              After install Feather, go to:<br>
+              Settings → General → VPN &amp; Device Mgnt → Enterprise App → Trust → Reboot
+            </p>
+          </li>
+
+          <li>
+            <a class="btn"
+               href="https://release-assets.githubusercontent.com/github-production-release-asset/1228813945/c881a8bf-99be-427f-a4a5-8425876e3745?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-05-15T17%3A44%3A27Z&rscd=attachment%3B+filename%3DYouProMod-73.ipa&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-05-15T16%3A43%3A38Z&ske=2026-05-15T17%3A44%3A27Z&sks=b&skv=2018-11-09&sig=IT%2BDpNSCEnrZ%2BiDfdGR%2Bph8SqN7SLXZB7H2RT0wx0aA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc3ODg2ODMwNywibmJmIjoxNzc4ODY0NzA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.FBLYjnRH9Q5se_qgXihsLw8sOfMAL4DO5Bn5nmv7ODU&response-content-disposition=attachment%3B%20filename%3DYouProMod-73.ipa&response-content-type=application%2Foctet-stream">
+              Download YouProMod App
+            </a>
+            <p class="note">
+              After download, go to:<br>
+              Feather → Settings → Certificate → + Sign → Import Cert File and Import Provisioning File → Password (password inside zip)<br><br>
+              Feather → Library → + sign → Import from Files → Download → YouProMod
+            </p>
+          </li>
+
+        </ol>
+      </section>
+
+    </div>
   </div>
 </body>
 </html>
